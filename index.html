@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!--These are my personal links-->
+  <!--Style sheet-->
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/5061fc92fa.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--the link to my google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <title>Weather channel</title>
+</head>
+
+<body>
+
+  <header id="header" style="color: darkblue">
+    The Weather Forecast
+  </header>
+
+  <main id="mainContainer" class="row">
+    <span id="searchContainer" class="col-md-3 col-xs-3 col-sm-3">
+      <form id="searchForm" class="row rounded">
+        <input id="input" placeholder="City" type="text" class="col-md-10" />
+        <button class="col-2" id="searchButton">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </span>
+
+    <span id="theWeather" class="col-md-9 col-xs-9 col-sm-9">
+      <section id="todayWeather" class="row rounded">
+        <h1 class="col-md-12" id="cityDate"></h1>
+        <img id="iconMain" />
+        <p class="col-md-12" id="temperature"></p>
+        <p class="col-md-12" id="humidity"></p>
+        <p class="col-md-12" id="wind"></p>
+        <p class="col-md-12" id="uv"></p>
+      </section>
+      <br />
+      <h2>
+        5-day Forecast
+      </h2>
+
+      <section id="weekWeather" class="row">
+        <span class="week1 week col-2 rounded"> </span>
+        <span class="week2 week col-2 rounded"> </span>
+        <span class="week3 week col-2 rounded"> </span>
+        <span class="week4 week col-2 rounded"> </span>
+        <span class="week5 week col-2 rounded"> </span>
+      </section>
+    </span>
+  </main>
+  <script src="moment.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

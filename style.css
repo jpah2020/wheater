@@ -1,0 +1,80 @@
+/*css style*/
+
+body {
+	background-image: url('./images/default.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Antic Slab', serif;
+}
+#header {
+	font-size: 40px;
+	text-align: center;
+	background-color: rgb(85, 225, 250);
+	display: block;
+	font-family: 'Anton', sans-serif;
+	height: 125px;
+	padding-top: 5%;
+}
+
+#mainContainer {
+	margin: 1%;
+	padding: 1%;
+	width: 100%;
+	min-height: 60px;
+	margin-top: 5%;
+	font-size: 25px;
+}
+
+form {
+	border: gray 2px solid;
+	background-color: rgb(255, 251, 251, 0.4);
+	margin-bottom: 2%;
+}
+
+input {
+	min-height: 40px;
+	border: gray solid 1px;
+}
+
+button {
+	text-align: left;
+	display: inline;
+}
+
+#theWeather {
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+#todayWeather {
+	background-color: rgb(255, 251, 251, 0.4);
+	margin-right: 5%;
+	border: gray 2px solid;
+	line-height: 200%;
+}
+
+#iconMain {
+	padding-left: 2%;
+}
+
+#uv {
+	background-color: rgb(255, 255, 164);
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.previousSearch {
+	text-transform: capitalize;
+}
+
+.week {
+	border: 1px solid gray;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 10%;
+	background-color: rgb(165, 165, 165, 0.5);
+	line-height: 130%;
+	word-wrap: break-word;
+}
